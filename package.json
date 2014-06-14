@@ -1,0 +1,42 @@
+{
+  "name": "docpad-plugin-dustjs",
+  "version": "2.0.0",
+  "description": "DocPad plugin that adds the ability to render dustjs to html",
+  "homepage": "https://github.com/xxvvii/docpad-plugin-dustjs",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "dustjs"
+  ],
+  "author": "xxvvii <xxvvii@gmail.com> (https://github.com/xxvvii/)",
+  "maintainers": [
+    "xxvvii <xxvvii@gmail.com> (https://github.com/xxvvii/docpad-plugin-dustjs)"
+  ],
+  "contributors": [
+    "xxvvii <xxvvii@gmail.com> (https://github.com/xxvvii/docpad-plugin-dustjs)"
+  ],
+  "bugs": {
+    "url": "https://github.com/xxvvii/docpad-plugin-dustjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xxvvii/docpad-plugin-dustjs"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1",
+    "docpad": "6"
+  },
+  "main": "./out/dustjs.plugin.js",
+  "cakeConfiguration": {
+    "COFFEE_SRC_PATH": "src"
+  },
+  "dependencies": {
+    "walk": "^2.3.3"
+  }
+}
