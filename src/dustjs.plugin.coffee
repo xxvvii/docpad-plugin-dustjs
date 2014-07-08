@@ -11,7 +11,7 @@ module.exports = (BasePlugin) ->
 
     loadPartials: require './lib/partials'
     render: (opts) ->
-      if opts.inExtension == @config.extensions ||'dust'
+      if opts.inExtension == (@config.extensions ||'dust')
         dust = @dust
         try
           tmpl = dust.compileFn(opts.content)
